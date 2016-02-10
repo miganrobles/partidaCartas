@@ -39,7 +39,7 @@ public class Juego
     { 
         mazoDeCartas.barajar(); 
         int numeroJugadores = jugadores.size();
-        while (mazoDeCartas.cartasContieneMazo() >= numeroJugadores) {
+        while (mazoDeCartas.quedan() >= numeroJugadores) {
             int index = 0;
             while (index < numeroJugadores) {
                 jugadores.get(index).recibirCarta(mazoDeCartas.tomarPrimera());
