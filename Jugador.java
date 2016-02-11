@@ -43,7 +43,7 @@ public class Jugador
     public ArrayList<String> cartasQueTieneEnLaMano()
     {
         ArrayList<String> cartasTiene = new ArrayList<>();
-        for (Cata carta : cartas) {
+        for (Carta carta : cartas) {
             cartasTiene.add(carta.getNombre());
         }
         return cartasTiene;
