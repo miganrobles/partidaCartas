@@ -38,14 +38,14 @@ public class Mazo
     }
 
     /**
-     * Método que nos dice cuántas cartas quedan en el mazo
+     * Metodo que nos dice cuantas cartas quedan en el mazo
      */
     public int quedan(){
         return cartas.size();
     }
     
     /**
-     * Método para obtener la primera carta del mazo
+     * Metodo para obtener la primera carta del mazo
      */
     public Carta tomarPrimera(){
         Carta primera = null;
@@ -57,7 +57,7 @@ public class Mazo
     }
     
     /**
-     * Método para barajar el mazo
+     * Metodo para barajar el mazo
      */
     public void barajar(){
         Collections.shuffle(cartas);

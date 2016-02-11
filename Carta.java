@@ -20,7 +20,7 @@ public class Carta
     }
     
     /**
-     * Método que devuele una cadena con el nombre de la carta
+     * Metodo que devuele una cadena con el nombre de la carta
      */
     public String getNombre(){
         String nombre = valor + " de " + palo;
@@ -40,14 +40,14 @@ public class Carta
     }
     
     /**
-     * Método que retorna el palo al que pertenece la carta
+     * Metodo que retorna el palo al que pertenece la carta
      */
     public String getPalo(){
         return palo;
     }
     
      /**
-     * Método que retorna un entero con el valor de la carta (de 1 a 13)
+     * Metodo que retorna un entero con el valor de la carta (de 1 a 13)
      */
     public int getValor(){
         return valor;
