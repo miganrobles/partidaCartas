@@ -12,6 +12,7 @@ public class Jugador
     private int id;
     // Atributo que almacena las cartas que tiene el jugador en su poder
     private ArrayList<Carta> cartas;
+    
     /**
      * Constructor de la clase Jugador
      */

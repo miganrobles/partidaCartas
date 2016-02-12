@@ -10,6 +10,7 @@ public class Carta
     private int valor;
     // Atributo que contiene el palo de las cartas
     private String palo;
+
     /**
      * Constructor for objects of class Carta
      */
@@ -18,11 +19,12 @@ public class Carta
         this.valor = valor;
         this.palo = palo;
     }
-    
+
     /**
      * Metodo que devuele una cadena con el nombre de la carta
      */
-    public String getNombre(){
+    public String getNombre()
+    {
         String nombre = valor + " de " + palo;
         if (valor == 1){
             nombre = "As de " + palo;
@@ -38,18 +40,20 @@ public class Carta
         }
         return nombre;
     }
-    
+
     /**
      * Metodo que retorna el palo al que pertenece la carta
      */
-    public String getPalo(){
+    public String getPalo()
+    {
         return palo;
     }
-    
-     /**
+
+    /**
      * Metodo que retorna un entero con el valor de la carta (de 1 a 13)
      */
-    public int getValor(){
+    public int getValor()
+    {
         return valor;
     }
 }

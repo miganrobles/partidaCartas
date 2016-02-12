@@ -40,10 +40,8 @@ public class Juego
         mazoDeCartas.barajar(); 
         int numeroJugadores = jugadores.size();
         while (mazoDeCartas.quedan() >= numeroJugadores) {
-            int index = 0;
-            while (index < numeroJugadores) {
-                jugadores.get(index).recibirCarta(mazoDeCartas.tomarPrimera());
-                index++;
+            for (Jugador jugador : jugadores) {
+                jugador.recibirCarta(mazoDeCartas.tomarPrimera());
             }
         }
     }
